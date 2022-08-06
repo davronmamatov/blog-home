@@ -41,16 +41,16 @@ function App() {
           <p className='text-center fs-4 mb-5'>A Bootstrap 5 starter layout for your next blog homepage</p>
         </section>
         <section id='section-2'>
-          <div className="container pt-4 pb-4">
-            <div className="row">
-              <div className="col-8 mb-4">
+          <div className="container pt-4 pb-2">
+            <div className="row row1 mb-4">
+              <div className="col-8">
                 <div class="card">
                   <img src={r1} class="card-img-top" alt="..."/>
 
                   <div class="card-body">
                     <p className='mb-0'>January 1, 2022</p>
                     <h5 class="card-title fs-1">Featured Post Title</h5>
-                    <p class="card-text fs-5 mt-3">
+                    <p class="card-text fs-5">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                       Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, 
                       a laboriosam. Dicta expedita corporis animi vero voluptate 
@@ -69,7 +69,7 @@ function App() {
                   </div>
                   <div class="card-body">
                     <div class="input-group mb-3 mt-3">
-                      <input type="text" class="form-control fs-4" placeholder="Enter search term..." aria-label="Recipient's username" aria-describedby="button-addon2"/>
+                      <input type="text" class="form-control fs-5" placeholder="Enter search term..." aria-label="Recipient's username" aria-describedby="button-addon2"/>
                       <button class="btn btn-primary fs-4" type="button" id="button-addon2">Go!</button>
                     </div>
                   </div>
@@ -94,10 +94,10 @@ function App() {
                   </div>
                 </div>
                 <div class="card">
-                  <div className="card-head rounded-top bg-secondary border-bottom pt-2 pb-2 ps-3">
+                  <div className="card-head rounded-top bg-secondary border-bottom pt-2 pb-1 ps-3">
                     <p class="card-title fs-4 text-light">Side Widget</p>
                   </div>
-                  <div class="card-body mt-1">
+                  <div class="card-body">
                     <p className='fs-5'>
                       You can put anything you want inside of these side widgets. 
                       They are easy to use, and feature the Bootstrap 5 card component!
@@ -105,6 +105,7 @@ function App() {
                   </div>
                 </div>
               </div>
+            </div>
               <div className="row">
                 <div className="col-8">
                   <div className="row">
@@ -165,8 +166,8 @@ function App() {
                       </div>
                     </div>
                   </div>
-                  <hr className='mt-5' />
-                    <nav aria-label="Page navigation example" className='mt-5 d-flex justify-content-center'>
+                  <hr className='mt-4 mb-4' />
+                    <nav aria-label="Page navigation example" className='d-flex justify-content-center'>
                       <ul class="pagination">
                         <li class="page-item"><a class="page-link fs-5 pt-2 pb-2 ps-3 pe-3 text-dark" href="#">Newer</a></li>
                         <li class="page-item"><a class="page-link bg-primary text-light fs-5 pt-2 pb-2 ps-3 pe-3" href="#">1</a></li>
@@ -179,7 +180,7 @@ function App() {
                     </nav>
                 </div>
               </div>
-            </div>
+            
           </div>
         </section>
         <footer className='bg-dark pt-5 pb-5'>
