@@ -56,7 +56,7 @@ function App() {
                       a laboriosam. Dicta expedita corporis animi vero voluptate 
                       voluptatibus possimus, veniam magni quis!
                     </p>
-                    <a href="#" class="btn btn-primary fs-4 mt-2 mb-2">Read more 
+                    <a href="#" class="btn btn-primary fs-5">Read more 
                     <img src={arrow1} className="ms-2" width={25} alt="" />
                     </a>
                   </div>
@@ -68,7 +68,7 @@ function App() {
                     <p class="card-title fs-4 text-light">Search</p>
                   </div>
                   <div class="card-body">
-                    <div class="input-group mb-3 mt-3">
+                    <div class="input-group mb-2 mt-2">
                       <input type="text" class="form-control fs-5" placeholder="Enter search term..." aria-label="Recipient's username" aria-describedby="button-addon2"/>
                       <button class="btn btn-primary fs-4" type="button" id="button-addon2">Go!</button>
                     </div>
@@ -98,7 +98,7 @@ function App() {
                     <p class="card-title fs-4 text-light">Side Widget</p>
                   </div>
                   <div class="card-body">
-                    <p className='fs-5'>
+                    <p className='fs-5 mb-2'>
                       You can put anything you want inside of these side widgets. 
                       They are easy to use, and feature the Bootstrap 5 card component!
                     </p>
